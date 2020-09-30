@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -31,7 +31,8 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
   host:
-    - libopenblas                  # [not win]
+    - libblas                      # [not win]
+    - liblapack                    # [not win]
     - r-base
   run:
     - r-base
