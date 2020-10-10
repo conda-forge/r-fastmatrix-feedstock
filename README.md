@@ -5,11 +5,9 @@ Home: https://faosorios.github.io/fastmatrix/
 
 Package license: GPL-3.0-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fastmatrix-feedstock/blob/master/LICENSE.txt)
 
 Summary: Small set of functions to fast computation of some matrices and operations useful in statistics.
-
-
 
 Current build status
 ====================
