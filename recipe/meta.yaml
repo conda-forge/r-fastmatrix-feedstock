@@ -1,4 +1,4 @@
-{% set version = "0.3-8" %}
+{% set version = "0.3-81" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fastmatrix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fastmatrix/fastmatrix_{{ version }}.tar.gz
-  sha256: f2df2aeea647d43f527be5f204aabad9517c198b3e2ef6f9a75af97a530f52b5
+  sha256: 7ccea45fb31839dd8f44227fa9a064a1aef16cfc5a355ff6be48c2eebad6963d
 
 build:
   merge_build_host: true  # [win]
