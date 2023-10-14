@@ -3,6 +3,7 @@ About r-fastmatrix-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fastmatrix-feedstock/blob/main/LICENSE.txt)
 
+
 About r-fastmatrix
 ------------------
 
@@ -11,6 +12,7 @@ Home: https://faosorios.github.io/fastmatrix/
 Package license: GPL-3.0-only
 
 Summary: Small set of functions to fast computation of some matrices and operations useful in statistics.
+
 About r-fastmatrix
 ------------------
 
