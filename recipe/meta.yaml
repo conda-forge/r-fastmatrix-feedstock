@@ -1,4 +1,4 @@
-{% set version = "0.6-4" %}
+{% set version = "0.6-6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fastmatrix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fastmatrix/fastmatrix_{{ version }}.tar.gz
-  sha256: c2736bfd96a5c04625de95ca4df3e9656b50fc211ee59a8c2fdb6a413fda4ddb
+  sha256: 4998e19d2ac48537d22058d5ca6a21c380f80f336f2807c28d791b0b154416f3
 
 build:
   number: 0
